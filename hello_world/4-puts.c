@@ -1,8 +1,7 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- *main short description hellllllllllllllllllo
- *main short description 
+ *main - Entry point of the program
+ *Return: Always 0 on success
  */
 int main(void)
 {
