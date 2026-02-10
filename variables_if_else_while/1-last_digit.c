@@ -17,7 +17,7 @@ printf("%d and is greater than 5\n", n % 10);
 }
 else if (n == 0)
 {
-printf("%d and is 0\n", n);
+printf("%d and is 0\n", n % 10);
 }
 else if (n < 6)
 {
