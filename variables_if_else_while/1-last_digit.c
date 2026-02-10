@@ -1,10 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 /**
  *main-njfsjknfns
- *Returns:ajkfahfi
+ *Return:ajkfahfi
+ *dhiodhikhifikhikhik
  */
+
 int main(void)
 {
 int n;
