@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/* more headers goes there */
-/* betty style doc for function main goes there */
-
+/**
+ *main-fhjs
+ *Return:ja8ihdah
+ */
 int main(void)
 {
 int n;
