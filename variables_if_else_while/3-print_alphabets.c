@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main:hihh
+ *main-hihhhtdthsheshss
  *Return:ihihih
  */
 int main(void)
