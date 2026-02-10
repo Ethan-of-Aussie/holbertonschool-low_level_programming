@@ -17,7 +17,7 @@ if (digit > 5)
 {
 printf("and is greater than 5");
 }
-else if (n == 0)
+else if (digit == 0)
 {
 printf("and is 0");
 }
