@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  *main-kjjdijajidj
- *return:dhsiuhahd
+ *Return:dhsiuhahd
+ *fjjjjjjjjjjjjjjjjjjjjjjjjjjs
  */
 int main(void)
 {
