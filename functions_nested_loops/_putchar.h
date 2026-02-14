@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _PUTCHAR_H
+#define _PUTCHAR_H
 #include <unistd.h>
 #include <string.h>
 /**
