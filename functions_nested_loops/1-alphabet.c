@@ -1,8 +1,11 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main-check the code
- * Return:0
+ * print_alphabet - entry point
+ *
+ * Description: This function prints the alphabet, in lowercase
+ *
+ * Return: void
  */
 void print_alphabet(void)
 {

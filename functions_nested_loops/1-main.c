@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main-hagagawegwagwaeg
+ * Return:0
  */
 int main(void)
 {
