@@ -1,0 +1,18 @@
+#include <unistd.h>
+#include "main.h"
+/**
+ *int _islower - entry point
+ *return: 0
+ *description - weed out the none lowercase.
+ */
+int _islower(int c)
+{
+	c = 'a';
+	while (c <= 'z');
+{
+	c++;
+}
+	if (c == 'c', &&)
+	  
+	return (0);
+}
