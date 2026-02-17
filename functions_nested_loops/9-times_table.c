@@ -12,7 +12,7 @@ void times_table(void)
 	int j;
 	for (c = 0; c < 10; c++)
 	  {
-	for (j = 0; j < 10 ; j++)
+	for (j = 0; j <  10; j++)
 	      {
 	a = c * j;
 	if (a < 10)
