@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_abs - check the code.
+ *print_last_digit - check the code.
  *Desrciption: 'function that prints the last digit of a number.'
  *@c: is used for the input.
  * Return: n produces the last digit after c %.
