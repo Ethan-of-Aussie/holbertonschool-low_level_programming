@@ -7,30 +7,46 @@
 
 void times_table(void)
 {
-	const char *str = ", ";
-	int p = 0;
+	
 	int a;
 	int c;
 	int j;
-	p = ", ";
-	for (c = 0; c < 10; c++)
+	int p = 0;
+	for (c = 0; c <= 9; c++)
 	  {
-	for (j = 0; j <  10; j++)
+	for (j = 0; j <= 9; j++)
 	      {
-	a = c * j;
+
+		a = c * j;
+
 	if (a < 10)
 	  {
 	_putchar(a + '0');
-	_putchar(p);       
-	  }
-          else
+	
+	  _putchar(',');
+	  _putchar(' ');
+	
+		  }
+
+	else
 	  {
 	_putchar((a / 10) + '0');
 	_putchar((a % 10) + '0');
-	_putchar(p);
+	
+          _putchar(',');
+          _putchar(' ');
+          
 	  }
+
 	      }
-	  
+	while (p < 1)
+	  {
+	_putchar((a / 10) + '0');
+        _putchar((a % 10) + '0');
+	p++;
+	  }
+	
 	_putchar('\n');	     
-}
+	;
+	  }
 }	
