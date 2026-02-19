@@ -3,6 +3,7 @@
 /**
  *print_to_98 - entry point
  *description: 'function that prints all natural numbers from n to 98'
+ *@n: input
  */
 void print_to_98(int n)
 {
