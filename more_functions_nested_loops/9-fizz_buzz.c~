@@ -1,0 +1,9 @@
+#include <stdio.h>
+/**
+ *main -entry
+ *description:
+ */
+int main(void)
+{
+  int scale = 1;
+}
