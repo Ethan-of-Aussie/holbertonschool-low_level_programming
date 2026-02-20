@@ -13,7 +13,7 @@ int main(void)
 	scale++;
 	if (scale % 3 == 0 && scale % 5 == 0)
 	{
-	printf("Fizzbuzz");
+	printf("FizzBuzz");
 	}
 	else if (scale % 3 == 0)
 	{
