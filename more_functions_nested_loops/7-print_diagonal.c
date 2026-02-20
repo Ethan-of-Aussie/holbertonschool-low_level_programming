@@ -2,7 +2,7 @@
 /**
  *print_diagonal - entry
  *description: 'function that draws a diagonal line on the terminal'
- *@n: input 
+ *@n: input
 */
 void print_diagonal(int n)
 {
@@ -10,7 +10,7 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 
-	  {
+	{
 	_putchar('\n');
 	}
 
