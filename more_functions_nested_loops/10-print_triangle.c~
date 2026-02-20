@@ -1,0 +1,6 @@
+#include "main.h"
+/**
+print_triangle - entry
+*description: 'function that prints a triangle'
+*/
+void print_triangle(int size)
