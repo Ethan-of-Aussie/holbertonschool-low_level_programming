@@ -1,0 +1,4 @@
+#include "main.h"
+/**
+ *puts2 - entry
+ *description: 'function that prints every other character of a string'
