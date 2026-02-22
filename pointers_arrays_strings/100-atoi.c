@@ -21,6 +21,8 @@ int _atoi(char *s)
 	{
 	n = n * 10 + (s[i] - '0');
 	i++;
+	if (n == -2147483648)
+	break;
 	}
 	return (n * signs);
 }
