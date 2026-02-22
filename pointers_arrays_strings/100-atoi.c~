@@ -1,0 +1,4 @@
+#include "main.h"
+/**
+ *_atoi - entry
+ *description: 'function that convert a string to an integer'
