@@ -11,7 +11,7 @@ int _atoi(char *s)
 	int n = 0;
 	int signs = 1;
 	int digit;
-	
+
 	while (s[i] != '\0' && (s[i] < '0' || s[i] > '9'))
 	{
 	if (s[i] == '-')
@@ -25,7 +25,6 @@ int _atoi(char *s)
 	return (-2147483648);
 	n = n * 10 - digit;
 	i++;
-	
 	}
-	return (signs == 1) ? -n : n;
+	return ((signs == 1) ? -n : n);
 }
