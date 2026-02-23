@@ -1,0 +1,22 @@
+#include "main.h"
+
+char *_strcat(char *dest, char *src)
+{
+	int i = 0;
+	int temp;
+	
+	while (src[i] != '\0')
+	{
+	temp = src[i];
+	i++;
+	 if (src[i] >= temp)
+          {
+            dest[i] = temp;
+            i++;
+          }
+	}
+	
+   
+	dest[i] = '\0';
+	return (dest);
+}
