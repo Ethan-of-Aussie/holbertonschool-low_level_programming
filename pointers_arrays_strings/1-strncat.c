@@ -9,19 +9,19 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-        int i = 0;
-        int a = 0;
+	int i = 0;
+	int a = 0;
 
 	while (dest[i] != '\0')
-        {
-        i++;
-        }
+	{
+	i++;
+	}
 	while (a < n && src[a] != '\0')
 	{
 	dest[i] = src[a];
 	a++;
 	i++;
 	}
-        dest[i] = '\0';
-        return (dest);
+	dest[i] = '\0';
+	return (dest);
 }
