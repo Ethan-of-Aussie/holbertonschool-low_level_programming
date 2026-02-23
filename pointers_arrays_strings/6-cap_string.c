@@ -17,6 +17,7 @@ char *cap_string(char *str)
 	while (*p)
 	{
 	char *s = seps;
+
 	while (*s)
 	{
 	if (*p == *s)
