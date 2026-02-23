@@ -3,7 +3,7 @@
  *leet - entry
  *description: 'leet baby, leet!'
  *@str: input
- *Return: the leet switch
+ *Return: the leet
  */
 char *leet(char *str)
 {
