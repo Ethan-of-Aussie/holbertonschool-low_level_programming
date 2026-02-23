@@ -5,7 +5,7 @@
  *@s: memory
  *@b: constant byte
  *@n: fills the first bytes of the memory
- *Return: the output of s 
+ *Return: the output of s
 */
 char *_memset(char *s, char b, unsigned int n)
 {
