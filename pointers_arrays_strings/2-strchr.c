@@ -4,7 +4,7 @@
  *description: 'function that locates a character in a string'
  *@s: string
  *@c: element to be searched
- *Return: 0 
+ *Return: 0
 */
 char *_strchr(char *s, char c)
 {
