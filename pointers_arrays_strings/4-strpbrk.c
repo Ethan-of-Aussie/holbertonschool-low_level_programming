@@ -10,7 +10,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	const char *temp;
-	
+
 	if (s == NULL || accept == NULL)
 	{
 	return (NULL);
@@ -19,10 +19,10 @@ char *_strpbrk(char *s, char *accept)
 		{
 		temp = accept;
 		while (*temp != '\0')
-			{
-			if (*s == *temp)
-			{
-		return (char *) s;
+		{
+		if (*s == *temp)
+		{
+		return ((char *) s);
 		}
 		temp++;
 		}
