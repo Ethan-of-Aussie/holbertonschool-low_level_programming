@@ -4,7 +4,7 @@
  *_strpbrk - entry
  *description 'searches a string for any of a set bytes'
  *@s: string of bytes
- *accept: what bytes to accept
+ *@accept: what bytes to accept
  *Return: 0
  */
 char *_strpbrk(char *s, char *accept)
