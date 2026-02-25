@@ -1,0 +1,8 @@
+#include "main.h"
+/**
+ *_strstr - entry
+ *description: 'function that locates a substring'
+ *@haystack:
+ *@needle:
+ */
+char *_strstr(char *haystack, char *needle);
