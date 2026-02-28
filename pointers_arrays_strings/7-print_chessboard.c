@@ -2,18 +2,17 @@
 /**
  *print_chessboard - entry
  *description: 'function that prints the chessboard'
- *@a: the strings from the array
+ *@a: the elements from the array
  */
 void print_chessboard(char (*a)[8])
 {
-int i, j = 0;
-if (*a[j] == '\0')
-{
-j = 0;
-while (*a[i] != '\0')
-{
-return (a + i);
-}
-j++;
+int i, j;
+	for (j = 0; j < 8; j++)
+	{
+	  for (i = 0; i < 8; i++)
+	{
+	_putchar(a[j][i]);
+	}
+	_putchar('\n');
 }
 }
