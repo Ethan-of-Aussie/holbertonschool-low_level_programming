@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_diagrams - sum of two diagonals
+ *print_diagsums - sum of two diagonals
  *@a: points to first element
  *@size: number of rows and columns
  */
 void print_diagsums(int *a, int size)
 {
-	int i, sum1 = 0, sum2 = 1;
+	int i, sum1 = 0, sum2 = 0;
 
 	for (i = 0; i < size; i++)
 	{
