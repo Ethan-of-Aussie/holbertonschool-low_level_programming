@@ -1,19 +1,18 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
+ *print_diagrams - sum of two diagonals
+ *@a: points to first element
+ *@size: number of rows and columns
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j;
-	
-	for (i = 0; i < *a; i++)
+	int i, sum1 = 0, sum2 = 1;
+
+	for (i = 0; i < size; i++)
 	{
-	for (j = 0; j < *a; j++)
-	{
-	_putchar(a);
+	sum1 += a[i + size + i];
+	sum2 += a[i + size + (size - 1 - i)]; 
 	}
-	_putchar('\n');
-	}
+	printf("%d, %d\n", sum1, sum2);
 }
