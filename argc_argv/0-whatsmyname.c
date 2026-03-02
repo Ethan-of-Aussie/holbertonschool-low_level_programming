@@ -2,6 +2,8 @@
 #include <stdio.h>
 /**
  *main - to print its own name even after changing filename
+ *@argc: argument count
+ *@argv: argument strings
  *Return: 0
  */
 int main(int argc __attribute__((unused)), char *argv[])
