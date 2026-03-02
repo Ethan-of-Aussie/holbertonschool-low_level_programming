@@ -3,6 +3,8 @@
  *_sqrt_recursion - returns the natural square root of a number
  *@n: input
  *_sqrt_assist - finding the square root
+ *@i:variable to help find square root
+ *Return: the possible square root
  */
 int _sqrt_assist(int n, int i)
 {
