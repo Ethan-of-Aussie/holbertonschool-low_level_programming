@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *_sqrt_recursion - returns the natural square root of a number
- *@n: input
- *_sqrt_assist - finding the square root
- *@i:variable to help find square root
- *Return: the possible square root
+ * _sqrt_assist - helper function to find natural square root
+ * @n: number to compute the square root
+ * @i: current guess
+ *
+ * Return: the natural square root, or -1 if none exists
  */
 int _sqrt_assist(int n, int i)
 {
@@ -18,6 +18,12 @@ int _sqrt_assist(int n, int i)
 	}
 	return (_sqrt_assist(n, i + 1));
 }
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: number to compute the square root
+ *
+ * Return: the natural square root, or -1 if none exists
+ */
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
