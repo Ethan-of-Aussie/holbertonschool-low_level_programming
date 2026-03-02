@@ -2,7 +2,7 @@
 /**
  *main - number of arguments to be passed
  *@argc:number of arguments
- *@argv:
+ *@argv:strings
  *Return: 0
  */
 int main(int argc, char *argv[])
