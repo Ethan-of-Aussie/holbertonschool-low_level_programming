@@ -2,11 +2,11 @@
 #include <stddef.h>
 #include <stdlib.h>
 /**
- *create_array - function that creates an array of chars. initializes with a specific char
+ *create_array - creates an array of chars. initializes with a specific char
  *@size: Size of the array
  *@c;The input
  *
- *Return: The input 
+ *Return: The input
  */
 char *create_array(unsigned int size, char c)
 {
@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 	{
 	return (NULL);
 	}
-	arr = malloc(size * sizeof (char));
+	arr = malloc(size * sizeof(char));
 	if (arr == NULL)
 	{
 	return (NULL);
@@ -26,5 +26,5 @@ char *create_array(unsigned int size, char c)
 	{
 	arr[i] = c;
 	}
-  return (arr);
+return (arr);
 }
