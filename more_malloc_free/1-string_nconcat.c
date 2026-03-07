@@ -2,18 +2,20 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
+ *string_nconcat - concatenates two strings while using malloc
+ *@s1: string1
+ *@s2: string2
+ *@n: the allowed amount of bytes
  *
- *@
- *
- *Return:
+ *Return: the spliced strings output
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i = 0;
-	int j = 0;
+	unsigned int i = 0;
+	unsigned int j = 0;
 	unsigned int use;
 	char *new;
-	int k, k2;
+	unsigned int k, k2;
   
 	while (s1[i] != '\0')
 	i++;
