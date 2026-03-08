@@ -16,14 +16,14 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	size_t total, i;
 
 	if (nmemb == 0 || size == 0)
-		total = 0;
+		return (NULL);
 	else if (nmemb > SIZE_MAX / size)
 		return (NULL);
 	else
 		total = nmemb * size;
 
 	a = malloc(total);
-	if (a == NULL && total != 0)
+	if (a == NULL)
 		return (NULL);
 
 	for (i = 0; i < total; i++)
