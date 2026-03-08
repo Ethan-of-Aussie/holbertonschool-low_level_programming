@@ -23,7 +23,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		total = nmemb * size;
 
 	a = malloc(total);
-	if (!a)
+	if (a == NULL && total != 0)
 		return (NULL);
 
 	for (i = 0; i < total; i++)
