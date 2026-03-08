@@ -5,10 +5,10 @@
 #include <stdint.h>
 /**
  *array_range - creates an array of integers
- *@min:
- *@max:
+ *@min: minumim input
+ *@max: maximum input
  *
- *Return: the output
+ *Return: the new array output
  */
 int *array_range(int min, int max)
 {
