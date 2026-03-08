@@ -19,8 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	else if (nmemb > SIZE_MAX / size)
 		return (NULL);
-	else
-		total = nmemb * size;
+	total = nmemb * size;
 
 	a = malloc(total);
 	if (a == NULL)
