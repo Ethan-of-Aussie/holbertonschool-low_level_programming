@@ -1,11 +1,29 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include "dog.h"
 /**
  *
  *
  */
-void *dog(char *name, float age, char *owner)
+dog_t *dog(char *name, float age, char *owner)
 {
+	struct dog *d;
+	int nlen = 0, i;
 
+	d = malloc(sizeof(dog_t));
+	if (!d)
+		return (NULL);
+	d->age = age;
+	for (nlen = 0; name[nlen] != '\0'; nlen++)
+		;
+	d->name = malloc(nlen + 1);
+	if(!d->name)
+		{
+		free(d);
+		return (NULL);
+		}
+	
+	
+	return (d);
 }
