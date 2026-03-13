@@ -11,10 +11,10 @@
 int main(int argc, char *argv[])
 {
 	int num1, num2, res;
-
+	char opa = argv[2][0];
 	int (*mathf)(int, int);
 
-	if (argc < 4 || argc > 4)
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
@@ -28,6 +28,11 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		exit(99);
+	}
+	if ((opa == '/' || opa == '%') && num2 == 0)
+	{
+		exit(100);
+		printf("Error\n");
 	}
 	res = mathf(num1, num2);
 	printf("%d\n", res);
