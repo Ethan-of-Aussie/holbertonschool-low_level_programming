@@ -1,0 +1,1 @@
+Function pointers huh? yea i'll function point ya in the right direction.
