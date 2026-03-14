@@ -1,0 +1,1 @@
+Check them variadics chief. List them, start em. put'em in an a va_arg than end them. Forth breakfest!
