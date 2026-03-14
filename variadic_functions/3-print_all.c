@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
- *print all - print any byte type
+ *print_all - print any byte type
  *
  *@format: The parameters
  */
