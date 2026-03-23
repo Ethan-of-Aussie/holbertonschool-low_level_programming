@@ -1,0 +1,1 @@
+Singly linked lists for singly linked tricks!
