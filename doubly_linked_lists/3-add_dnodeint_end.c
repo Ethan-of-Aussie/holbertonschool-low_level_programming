@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *add_dnodeint - Apply newnode to the end of list
+ *add_dnodeint_end - Apply newnode to the end of list
  *
  *@head: The head, to apply newnode at end of list
  *@n: The value to send into newnode
