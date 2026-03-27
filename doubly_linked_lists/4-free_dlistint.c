@@ -1,6 +1,7 @@
 #include "lists.h"
 /**
- *free_dlistint_t - time to go free
+ *free_dlistint- time to go free
+ *@head: The pointer to list
  */
 void free_dlistint(dlistint_t *head)
 {
