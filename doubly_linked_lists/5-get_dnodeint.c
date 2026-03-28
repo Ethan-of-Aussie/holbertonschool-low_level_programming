@@ -1,24 +1,19 @@
 #include "lists.h"
 /**
+ *get_dnodeint_at_index - Return the nth node in the list
  *
+ *@head: The pointer to node in list
+ *@index: The indexed value
+ *Return: The Value returned
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	if (!(*head))
-	{
-		(*head) = malloc(sizeof(dlistint_t));
-		(*head)->n = index;
-		(*head)->next = NULL;
-		(*head)->prev = NULL;
-		return;
-	}
+	unsigned int i;
+	dlistint_t *cur = head;
 
-	dlistint_t *newmode = malloc(sizeof(*newnode));
-	if (!newnode)
-		return (NULL);
-	newnode->n = index;
-	newnode->prev = (*head)->prev;
-	(*head)->prev = newnode;
-	newnode->prev->next = newnode;
-	newnode->next = (*head);
+	for (i = 0; i < index && cur != NULL; i++)
+	cur = cur->next;
+	if (!cur)
+	return (NULL);
+return (cur);
 }
