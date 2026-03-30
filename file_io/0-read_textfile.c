@@ -1,6 +1,10 @@
 #include "main.h"
 /**
+ *read_textfile - Read file and write to stdout, count characters.
  *
+ *@filename: Filename to be read from
+ *@letters: The data such as char to be read
+ *Return: Print to terminal and counted chars
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
