@@ -1,0 +1,14 @@
+#include "hash_tables.h"
+/**
+ *
+ */
+hash_table_t *hash_table_create(unsigned long int size)
+{
+	int i = 0;
+
+	while (size[i] != NULL)
+	i++;
+
+	if (!)
+	return (NULL);
+}
