@@ -4,6 +4,7 @@
  *@ht: Pointer to the hash table
  *@key: The key, holds the string
  *@value: The value associated with the key
+ *Return: Success or fail
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
