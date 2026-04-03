@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- *hash_table_get
+ *hash_table_get - Getting the key and value associated
  *
  *@ht: The pointer to hash_table_s
  *@key: Key holds the string
